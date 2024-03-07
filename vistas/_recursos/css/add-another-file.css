@@ -1,0 +1,47 @@
+.add-another-file{
+    position: relative;
+    display:flex;
+    width: 148px;
+    float: left;
+    left: 2.5rem;
+    bottom: 0.334rem;
+}
+
+.add-another-file div.col:first-child{
+    margin-right: 0.5rem;
+}
+
+.add-another-file div.col:last-child{
+    margin-left: 0.5rem;
+}
+
+.add-another-file div.col:nth-child(1) > span{
+    position: relative;
+    top: 0.25rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.add-another-file button{
+    border-radius: 50px 50px;
+    padding: 0;
+    width: 28px;
+    height: 28px;
+    font-size: 1.85rem;
+    font-weight: 600;
+}
+
+.container-files{
+    position: relative;
+    margin-top: 0.25rem;
+}
+
+.container-controllers{
+    position: relative;
+    overflow: hidden;
+}
+
+.container-controllers > label{
+    position: relative;
+    float: left;
+}
